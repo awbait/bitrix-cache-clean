@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+mysql = {'host': 'localhost',
+         'user': 'root',
+         'password': 'my secret password',
+         'db': 'database'}
