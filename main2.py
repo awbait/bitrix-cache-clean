@@ -5,8 +5,8 @@ from os.path import isfile, join
 
 import pymysql
 
-db_con = pymysql.connect(host='81.29.128.61', user='bitrix', password='paTfHGyCYro6fdcudBz',
-                         db='satin', charset='utf8mb4', cursorclass='DictCursor')
+db_con = pymysql.connect(host='<YOUR_IP>', user='<YOUR_USER>', password='<YOUR_PASS>',
+                         db='<YOUR_DB>', charset='utf8mb4', cursorclass='DictCursor')
 
 
 def check_directory(directory_tuple):
